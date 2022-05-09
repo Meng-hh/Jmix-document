@@ -1,9 +1,7 @@
 = Data Stores
 
-A data store represents a database or any other source of data in your application.
-
-Jmix provides `JpaDataStore` which stores xref:entities.adoc#jpa[JPA entities] in a relational database. This is the main persistence mechanism in Jmix applications, and when we mention a data store in this manual, we always mean `JpaDataStore` if not explicitly stated otherwise.
-
+数据存储表示应用程序中的数据库或任何其他数据源。
+Jmix提供了jpadatstore，它在关系数据库中存储JPA实体。这是Jmix应用程序中的主要持久性机制，当我们在本手册中提到数据存储时，如果没有明确说明，我们总是指jpadatstore。
 [[main]]
 == Main Store
 
